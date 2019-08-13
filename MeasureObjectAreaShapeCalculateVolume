@@ -1,16 +1,16 @@
-function handles = MeasureObjectAreaShapeVolume(handles)
+function handles = MeasureObjectAreaShapeCalculateVolume(handles)
 
-% Help for the Measure Object Area Shape Volume module:
+% Help for the Measure Object Area Shape Calculate Volume module:
 % Category: Measurement
 %
 % SHORT DESCRIPTION:
-% Adapation of the MeasureObjectAreaShape module of CellProfiler version 1
+% Adapation of the MeasureObjectAreaShapeCalculateVolume module of CellProfiler version 1
 % https://cellprofiler.org/previous_releases/
 % Adapated to also calculate the "Volume" (i.e. feature number 11) from the
 % area measurment. The Volume measurment is an approximation of the real volume
 % of the object and assume the object is a perfect sphere.
-% Measures several area and shape features of identified objects. Calculate the
-% volume from the area measurement
+% The module measures several area and shape features of identified objects (lipid droplets LDs).
+% Calculate the volume from the area measurement
 %
 % COMMENT
 % The module should be used after IdentifyLDs to measure the properties of the segmented
